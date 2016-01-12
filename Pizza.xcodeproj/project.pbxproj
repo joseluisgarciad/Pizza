@@ -15,6 +15,12 @@
 		8B81B2771C4187AF006F6AFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B81B2751C4187AF006F6AFE /* LaunchScreen.storyboard */; };
 		8B81B2821C4187AF006F6AFE /* PizzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B81B2811C4187AF006F6AFE /* PizzaTests.swift */; };
 		8B81B28D1C4187AF006F6AFE /* PizzaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B81B28C1C4187AF006F6AFE /* PizzaUITests.swift */; };
+		8B81B29B1C41923E006F6AFE /* VistaTamano.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B81B29A1C41923E006F6AFE /* VistaTamano.swift */; };
+		8B81B29D1C41B64D006F6AFE /* ViewTipoMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B81B29C1C41B64D006F6AFE /* ViewTipoMasa.swift */; };
+		8B81B29F1C41CCE9006F6AFE /* VistaQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B81B29E1C41CCE9006F6AFE /* VistaQueso.swift */; };
+		8B81B2A11C41D03A006F6AFE /* VistaIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B81B2A01C41D03A006F6AFE /* VistaIngredientes.swift */; };
+		8B81B2A31C41DBAD006F6AFE /* icono-de-pizza-23741.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B81B2A21C41DBAD006F6AFE /* icono-de-pizza-23741.png */; };
+		8B81B2A51C42CA6C006F6AFE /* VistaCocinar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B81B2A41C42CA6C006F6AFE /* VistaCocinar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		8B81B2881C4187AF006F6AFE /* PizzaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B81B28C1C4187AF006F6AFE /* PizzaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaUITests.swift; sourceTree = "<group>"; };
 		8B81B28E1C4187AF006F6AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B81B29A1C41923E006F6AFE /* VistaTamano.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaTamano.swift; sourceTree = "<group>"; };
+		8B81B29C1C41B64D006F6AFE /* ViewTipoMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTipoMasa.swift; sourceTree = "<group>"; };
+		8B81B29E1C41CCE9006F6AFE /* VistaQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaQueso.swift; sourceTree = "<group>"; };
+		8B81B2A01C41D03A006F6AFE /* VistaIngredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaIngredientes.swift; sourceTree = "<group>"; };
+		8B81B2A21C41DBAD006F6AFE /* icono-de-pizza-23741.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icono-de-pizza-23741.png"; path = "../../../../icono-de-pizza-23741.png"; sourceTree = "<group>"; };
+		8B81B2A41C42CA6C006F6AFE /* VistaCocinar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaCocinar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,12 @@
 				8B81B2751C4187AF006F6AFE /* LaunchScreen.storyboard */,
 				8B81B2781C4187AF006F6AFE /* Info.plist */,
 				8B81B2701C4187AF006F6AFE /* Pizza.xcdatamodeld */,
+				8B81B29A1C41923E006F6AFE /* VistaTamano.swift */,
+				8B81B29C1C41B64D006F6AFE /* ViewTipoMasa.swift */,
+				8B81B29E1C41CCE9006F6AFE /* VistaQueso.swift */,
+				8B81B2A01C41D03A006F6AFE /* VistaIngredientes.swift */,
+				8B81B2A21C41DBAD006F6AFE /* icono-de-pizza-23741.png */,
+				8B81B2A41C42CA6C006F6AFE /* VistaCocinar.swift */,
 			);
 			path = Pizza;
 			sourceTree = "<group>";
@@ -237,6 +255,7 @@
 			files = (
 				8B81B2771C4187AF006F6AFE /* LaunchScreen.storyboard in Resources */,
 				8B81B2741C4187AF006F6AFE /* Assets.xcassets in Resources */,
+				8B81B2A31C41DBAD006F6AFE /* icono-de-pizza-23741.png in Resources */,
 				8B81B26F1C4187AF006F6AFE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,8 +282,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B81B26C1C4187AF006F6AFE /* ViewController.swift in Sources */,
+				8B81B2A11C41D03A006F6AFE /* VistaIngredientes.swift in Sources */,
 				8B81B26A1C4187AF006F6AFE /* AppDelegate.swift in Sources */,
+				8B81B2A51C42CA6C006F6AFE /* VistaCocinar.swift in Sources */,
 				8B81B2721C4187AF006F6AFE /* Pizza.xcdatamodeld in Sources */,
+				8B81B29D1C41B64D006F6AFE /* ViewTipoMasa.swift in Sources */,
+				8B81B29B1C41923E006F6AFE /* VistaTamano.swift in Sources */,
+				8B81B29F1C41CCE9006F6AFE /* VistaQueso.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
