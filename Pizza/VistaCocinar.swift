@@ -20,6 +20,7 @@ class VistaCocinar: UIViewController {
         LabelTamano.text = tamano
         LabelMasa.text = Masa
         LabelQueso.text = Queso
+        LabelIngredientes.text = ""
         LabelIngredientes.text = Ingredientes
 
         // Do any additional setup after loading the view.

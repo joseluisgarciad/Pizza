@@ -19,8 +19,9 @@
 		8B81B29D1C41B64D006F6AFE /* ViewTipoMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B81B29C1C41B64D006F6AFE /* ViewTipoMasa.swift */; };
 		8B81B29F1C41CCE9006F6AFE /* VistaQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B81B29E1C41CCE9006F6AFE /* VistaQueso.swift */; };
 		8B81B2A11C41D03A006F6AFE /* VistaIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B81B2A01C41D03A006F6AFE /* VistaIngredientes.swift */; };
-		8B81B2A31C41DBAD006F6AFE /* icono-de-pizza-23741.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B81B2A21C41DBAD006F6AFE /* icono-de-pizza-23741.png */; };
 		8B81B2A51C42CA6C006F6AFE /* VistaCocinar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B81B2A41C42CA6C006F6AFE /* VistaCocinar.swift */; };
+		8B8AC84C1C8A4FB50076153F /* icono-de-pizza-23741.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8AC84B1C8A4FB50076153F /* icono-de-pizza-23741.png */; };
+		8B8AC84E1C8A52430076153F /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8AC84D1C8A52430076153F /* Datos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +60,9 @@
 		8B81B29C1C41B64D006F6AFE /* ViewTipoMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTipoMasa.swift; sourceTree = "<group>"; };
 		8B81B29E1C41CCE9006F6AFE /* VistaQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaQueso.swift; sourceTree = "<group>"; };
 		8B81B2A01C41D03A006F6AFE /* VistaIngredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaIngredientes.swift; sourceTree = "<group>"; };
-		8B81B2A21C41DBAD006F6AFE /* icono-de-pizza-23741.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icono-de-pizza-23741.png"; path = "../../../../icono-de-pizza-23741.png"; sourceTree = "<group>"; };
 		8B81B2A41C42CA6C006F6AFE /* VistaCocinar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaCocinar.swift; sourceTree = "<group>"; };
+		8B8AC84B1C8A4FB50076153F /* icono-de-pizza-23741.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icono-de-pizza-23741.png"; sourceTree = "<group>"; };
+		8B8AC84D1C8A52430076153F /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				8B81B2691C4187AF006F6AFE /* AppDelegate.swift */,
 				8B81B26B1C4187AF006F6AFE /* ViewController.swift */,
 				8B81B26D1C4187AF006F6AFE /* Main.storyboard */,
+				8B8AC84D1C8A52430076153F /* Datos.swift */,
 				8B81B2731C4187AF006F6AFE /* Assets.xcassets */,
 				8B81B2751C4187AF006F6AFE /* LaunchScreen.storyboard */,
 				8B81B2781C4187AF006F6AFE /* Info.plist */,
@@ -122,7 +125,7 @@
 				8B81B29C1C41B64D006F6AFE /* ViewTipoMasa.swift */,
 				8B81B29E1C41CCE9006F6AFE /* VistaQueso.swift */,
 				8B81B2A01C41D03A006F6AFE /* VistaIngredientes.swift */,
-				8B81B2A21C41DBAD006F6AFE /* icono-de-pizza-23741.png */,
+				8B8AC84B1C8A4FB50076153F /* icono-de-pizza-23741.png */,
 				8B81B2A41C42CA6C006F6AFE /* VistaCocinar.swift */,
 			);
 			path = Pizza;
@@ -255,7 +258,7 @@
 			files = (
 				8B81B2771C4187AF006F6AFE /* LaunchScreen.storyboard in Resources */,
 				8B81B2741C4187AF006F6AFE /* Assets.xcassets in Resources */,
-				8B81B2A31C41DBAD006F6AFE /* icono-de-pizza-23741.png in Resources */,
+				8B8AC84C1C8A4FB50076153F /* icono-de-pizza-23741.png in Resources */,
 				8B81B26F1C4187AF006F6AFE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +292,7 @@
 				8B81B29D1C41B64D006F6AFE /* ViewTipoMasa.swift in Sources */,
 				8B81B29B1C41923E006F6AFE /* VistaTamano.swift in Sources */,
 				8B81B29F1C41CCE9006F6AFE /* VistaQueso.swift in Sources */,
+				8B8AC84E1C8A52430076153F /* Datos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +519,7 @@
 				8B81B2931C4187B0006F6AFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B81B2941C4187B0006F6AFE /* Build configuration list for PBXNativeTarget "PizzaTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +528,7 @@
 				8B81B2961C4187B0006F6AFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B81B2971C4187B0006F6AFE /* Build configuration list for PBXNativeTarget "PizzaUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +537,7 @@
 				8B81B2991C4187B0006F6AFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -20,9 +20,10 @@ class ViewTipoMasa: UIViewController,
     }
     
     override func viewDidLoad() {
-    super.viewDidLoad()
-    self.PickerMasa.dataSource = self;
-    self.PickerMasa.delegate = self;
+        super.viewDidLoad()
+        self.PickerMasa.dataSource = self;
+        self.PickerMasa.delegate = self;
+        Siguiente.enabled = false
     }
     override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
@@ -52,8 +53,10 @@ class ViewTipoMasa: UIViewController,
         if(row == 0) { resultado = "Delgada" }
         else if(row == 1) { resultado = "Crujiente" }
         else if(row == 2) { resultado = "Gruesa" }
+        Siguiente.enabled = true
     }
 
+    @IBOutlet weak var Siguiente: UIButton!
     @IBOutlet weak var PickerMasa: UIPickerView!
 
     @IBOutlet weak var LabelTamano: UILabel!

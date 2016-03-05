@@ -26,6 +26,7 @@ UIPickerViewDataSource, UIPickerViewDelegate {
         super.viewDidLoad()
         self.PickerQueso.dataSource = self;
         self.PickerQueso.delegate = self;
+        Siguiente.enabled = false
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -57,9 +58,10 @@ UIPickerViewDataSource, UIPickerViewDelegate {
         else if(row == 1) { resultado = "Cheddar" }
         else if(row == 2) { resultado = "Parmesano" }
         else if(row == 3) { resultado = "Sin Queso" }
-
+        Siguiente.enabled = true
     }
 
+    @IBOutlet weak var Siguiente: UIButton!
     @IBOutlet weak var PickerQueso: UIPickerView!
     @IBOutlet weak var LabelTamano: UILabel!
     @IBOutlet weak var LabelMasa: UILabel!

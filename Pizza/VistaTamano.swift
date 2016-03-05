@@ -16,6 +16,7 @@ class VistaTamano: UIViewController, UIPickerViewDataSource, UIPickerViewDelegat
         super.viewDidLoad()
         self.PickerTamano.dataSource = self;
         self.PickerTamano.delegate = self;
+        Siguiente.enabled = false
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -48,8 +49,11 @@ class VistaTamano: UIViewController, UIPickerViewDataSource, UIPickerViewDelegat
         if(row == 0) { resultado = "Pequeña" }
         else if(row == 1) { resultado = "Mediana" }
         else if(row == 2) { resultado = "Grande" }
+        Siguiente.enabled = true
     }
 
+    @IBOutlet weak var Siguiente: UIButton!
+   
     func mensaje (Texto: String) {
         let alertController = UIAlertController(title: "El tamaño elegido es", message:
             Texto, preferredStyle: UIAlertControllerStyle.Alert)
